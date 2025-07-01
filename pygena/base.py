@@ -98,6 +98,8 @@ class Population:
             for c in self.chromosomes
             for _ in range(math.floor((100 * c.fitness) / self.global_best.fitness))
         ]
+        if len(mating_pool) == 0:
+            mating_pool = self.chromosomes
         for i in range(len(self.chromosomes)):
             parent1 = random.choice(mating_pool)
             parent2 = random.choice(mating_pool)
