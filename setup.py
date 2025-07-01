@@ -5,7 +5,7 @@ here = Path(__file__).parent.resolve()
 
 setup(
     name="pygena",
-    version="0.1.0",
+    version="0.2.0",
     author="Ahmet Atasoglu",
     author_email="ahmetatasoglu98@gmail.com",
     description="A simple genetic algorithm library in Python.",
